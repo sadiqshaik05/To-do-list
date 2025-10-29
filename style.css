@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+#main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#left>p{
+    font-size: 20px;
+    font-weight: 700;
+}
+#left>input{
+    height: 42px;
+    width: 250px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    outline: none;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+#left>button{
+    height: 42px;
+    width: fit-content;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    border-radius: 12px;
+    padding: 12px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+#right{
+    font-size: 20px;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task>img{
+    cursor: pointer;
+}
